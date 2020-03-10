@@ -1,0 +1,3 @@
+/home/kya/CLionProjects/projetChat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kya/CLionProjects/projetChat/cmake-build-debug/CMakeFiles/projetChat.dir
+/home/kya/CLionProjects/projetChat/cmake-build-debug/CMakeFiles/edit_cache.dir
