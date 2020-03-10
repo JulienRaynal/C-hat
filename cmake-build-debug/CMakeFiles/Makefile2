@@ -53,12 +53,12 @@ CMAKE_BINARY_DIR = /home/lothar/Documents/C-hat/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/projetChat.dir/all
+all: CMakeFiles/C-hat.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/projetChat.dir/clean
+clean: CMakeFiles/C-hat.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/projetChat.dir
+# Target rules for target CMakeFiles/C-hat.dir
 
 # All Build rule for target.
-CMakeFiles/projetChat.dir/all:
-	$(MAKE) -f CMakeFiles/projetChat.dir/build.make CMakeFiles/projetChat.dir/depend
-	$(MAKE) -f CMakeFiles/projetChat.dir/build.make CMakeFiles/projetChat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lothar/Documents/C-hat/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target projetChat"
-.PHONY : CMakeFiles/projetChat.dir/all
+CMakeFiles/C-hat.dir/all:
+	$(MAKE) -f CMakeFiles/C-hat.dir/build.make CMakeFiles/C-hat.dir/depend
+	$(MAKE) -f CMakeFiles/C-hat.dir/build.make CMakeFiles/C-hat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lothar/Documents/C-hat/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target C-hat"
+.PHONY : CMakeFiles/C-hat.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/projetChat.dir/rule: cmake_check_build_system
+CMakeFiles/C-hat.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lothar/Documents/C-hat/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/projetChat.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/C-hat.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lothar/Documents/C-hat/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/projetChat.dir/rule
+.PHONY : CMakeFiles/C-hat.dir/rule
 
 # Convenience name for target.
-projetChat: CMakeFiles/projetChat.dir/rule
+C-hat: CMakeFiles/C-hat.dir/rule
 
-.PHONY : projetChat
+.PHONY : C-hat
 
 # clean rule for target.
-CMakeFiles/projetChat.dir/clean:
-	$(MAKE) -f CMakeFiles/projetChat.dir/build.make CMakeFiles/projetChat.dir/clean
-.PHONY : CMakeFiles/projetChat.dir/clean
+CMakeFiles/C-hat.dir/clean:
+	$(MAKE) -f CMakeFiles/C-hat.dir/build.make CMakeFiles/C-hat.dir/clean
+.PHONY : CMakeFiles/C-hat.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

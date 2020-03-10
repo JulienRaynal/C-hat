@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named projetChat
+# Target rules for targets named C-hat
 
 # Build rule for target.
-projetChat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 projetChat
-.PHONY : projetChat
+C-hat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 C-hat
+.PHONY : C-hat
 
 # fast build rule for target.
-projetChat/fast:
-	$(MAKE) -f CMakeFiles/projetChat.dir/build.make CMakeFiles/projetChat.dir/build
-.PHONY : projetChat/fast
+C-hat/fast:
+	$(MAKE) -f CMakeFiles/C-hat.dir/build.make CMakeFiles/C-hat.dir/build
+.PHONY : C-hat/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/projetChat.dir/build.make CMakeFiles/projetChat.dir/main.c.o
+	$(MAKE) -f CMakeFiles/C-hat.dir/build.make CMakeFiles/C-hat.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/projetChat.dir/build.make CMakeFiles/projetChat.dir/main.c.i
+	$(MAKE) -f CMakeFiles/C-hat.dir/build.make CMakeFiles/C-hat.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/projetChat.dir/build.make CMakeFiles/projetChat.dir/main.c.s
+	$(MAKE) -f CMakeFiles/C-hat.dir/build.make CMakeFiles/C-hat.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... projetChat"
+	@echo "... C-hat"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"
