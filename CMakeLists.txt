@@ -3,4 +3,4 @@ project(projetChat C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(projetChat main.c)
+add_executable(projetChat main.c socket.c)

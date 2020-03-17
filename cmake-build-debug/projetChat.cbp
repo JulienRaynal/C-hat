@@ -81,6 +81,9 @@
 		<Unit filename="/home/kya/CLionProjects/projetChat/C-hat/main.c">
 			<Option target="projetChat"/>
 		</Unit>
+		<Unit filename="/home/kya/CLionProjects/projetChat/C-hat/socket.c">
+			<Option target="projetChat"/>
+		</Unit>
 		<Unit filename="/home/kya/CLionProjects/projetChat/C-hat/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/projetChat.dir/main.c.o  -o projetChat 
+/usr/bin/cc -g   CMakeFiles/projetChat.dir/main.c.o CMakeFiles/projetChat.dir/socket.c.o  -o projetChat 

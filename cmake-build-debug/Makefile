@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/projetChat.dir/build.make CMakeFiles/projetChat.dir/main.c.s
 .PHONY : main.c.s
 
+socket.o: socket.c.o
+
+.PHONY : socket.o
+
+# target to build an object file
+socket.c.o:
+	$(MAKE) -f CMakeFiles/projetChat.dir/build.make CMakeFiles/projetChat.dir/socket.c.o
+.PHONY : socket.c.o
+
+socket.i: socket.c.i
+
+.PHONY : socket.i
+
+# target to preprocess a source file
+socket.c.i:
+	$(MAKE) -f CMakeFiles/projetChat.dir/build.make CMakeFiles/projetChat.dir/socket.c.i
+.PHONY : socket.c.i
+
+socket.s: socket.c.s
+
+.PHONY : socket.s
+
+# target to generate assembly for a file
+socket.c.s:
+	$(MAKE) -f CMakeFiles/projetChat.dir/build.make CMakeFiles/projetChat.dir/socket.c.s
+.PHONY : socket.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... socket.o"
+	@echo "... socket.i"
+	@echo "... socket.s"
 .PHONY : help
 
 

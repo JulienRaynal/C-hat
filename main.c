@@ -1,16 +1,13 @@
-#include <stdio.h>
-#include <signal.h>
 #include <stdlib.h>
+#include "socket.h"
 
-int end = 0;
+int main(void) {
 
-void truc(int sig){
-    printf("On reçoit %i \n", sig);
-    end = 1;
-}
+   int socketIP4 = socketCreation ();
+    bindParam(socketIP4);
+    binAdressPort(socketIP4);
+    listening(socketIP4);
+    connexion(socketIP4);
 
-int main(void){
-    signal(2, truc);
-    while (end == 0);
     return EXIT_SUCCESS;
 }

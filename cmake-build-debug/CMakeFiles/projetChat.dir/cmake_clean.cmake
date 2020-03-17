@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/projetChat.dir/main.c.o"
+  "CMakeFiles/projetChat.dir/socket.c.o"
   "projetChat"
   "projetChat.pdb"
 )
