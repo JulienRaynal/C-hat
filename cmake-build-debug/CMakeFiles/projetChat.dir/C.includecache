@@ -6,11 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/kya/CLionProjects/projetChat/C-hat/main.c
+C:/Users/user/Desktop/prog/C-Hat/main.c
+stdlib.h
+-
+socket.h
+C:/Users/user/Desktop/prog/C-Hat/socket.h
+
+C:/Users/user/Desktop/prog/C-Hat/socket.c
+socket.h
+C:/Users/user/Desktop/prog/C-Hat/socket.h
+
+C:/Users/user/Desktop/prog/C-Hat/socket.h
 stdio.h
 -
-signal.h
+string.h
 -
 stdlib.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+errno.h
+-
+arpa/inet.h
+-
+fcntl.h
 -
 

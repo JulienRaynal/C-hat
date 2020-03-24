@@ -1,7 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/projetChat.dir/main.c.o"
-  "CMakeFiles/projetChat.dir/socket.c.o"
-  "projetChat"
+  "CMakeFiles/projetChat.dir/main.c.obj"
+  "CMakeFiles/projetChat.dir/sockets/bindAdressPort.c.obj"
+  "CMakeFiles/projetChat.dir/sockets/bindParam.c.obj"
+  "CMakeFiles/projetChat.dir/sockets/connexion.c.obj"
+  "CMakeFiles/projetChat.dir/sockets/creation.c.obj"
+  "CMakeFiles/projetChat.dir/sockets/listening.c.obj"
+  "CMakeFiles/projetChat.dir/sockets/socket.c.obj"
+  "projetChat.exe"
+  "projetChat.exe.manifest"
+  "projetChat.lib"
   "projetChat.pdb"
 )
 

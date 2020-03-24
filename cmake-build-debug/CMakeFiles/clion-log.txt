@@ -1,4 +1,4 @@
-/home/kya/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kya/CLionProjects/projetChat/C-hat
+C:\Users\user\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.6487.17\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\user\Desktop\prog\C-Hat
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/kya/CLionProjects/projetChat/C-hat/cmake-build-debug
+-- Build files have been written to: C:/Users/user/Desktop/prog/C-Hat/cmake-build-debug
