@@ -1,3 +1,0 @@
-C:/Users/user/Desktop/prog/C-Hat/cmake-build-debug/CMakeFiles/projetChat.dir
-C:/Users/user/Desktop/prog/C-Hat/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/user/Desktop/prog/C-Hat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
