@@ -1,0 +1,1 @@
+/usr/bin/cc  -pthread -g   CMakeFiles/C_HAT.dir/main.c.o CMakeFiles/C_HAT.dir/log/Logger.c.o CMakeFiles/C_HAT.dir/socket/Socket.c.o CMakeFiles/C_HAT.dir/client/Client.c.o CMakeFiles/C_HAT.dir/salon/Salon.c.o  -o C_HAT 
