@@ -48,10 +48,10 @@ RM = /home/kya/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kya/CLionProjects/C-HAT
+CMAKE_SOURCE_DIR = "/home/kya/CLionProjects/C-HAT julien"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kya/CLionProjects/C-HAT/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/kya/CLionProjects/C-HAT julien/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kya/CLionProjects/C-HAT/cmake-build-debug/CMakeFiles /home/kya/CLionProjects/C-HAT/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/CMakeFiles" "/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kya/CLionProjects/C-HAT/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -204,32 +204,59 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/C_HAT.dir/build.make CMakeFiles/C_HAT.dir/main.c.s
 .PHONY : main.c.s
 
-salon/Salon.o: salon/Salon.c.o
+message_manager/Message_Manager.o: message_manager/Message_Manager.c.o
 
-.PHONY : salon/Salon.o
+.PHONY : message_manager/Message_Manager.o
 
 # target to build an object file
-salon/Salon.c.o:
-	$(MAKE) -f CMakeFiles/C_HAT.dir/build.make CMakeFiles/C_HAT.dir/salon/Salon.c.o
-.PHONY : salon/Salon.c.o
+message_manager/Message_Manager.c.o:
+	$(MAKE) -f CMakeFiles/C_HAT.dir/build.make CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o
+.PHONY : message_manager/Message_Manager.c.o
 
-salon/Salon.i: salon/Salon.c.i
+message_manager/Message_Manager.i: message_manager/Message_Manager.c.i
 
-.PHONY : salon/Salon.i
+.PHONY : message_manager/Message_Manager.i
 
 # target to preprocess a source file
-salon/Salon.c.i:
-	$(MAKE) -f CMakeFiles/C_HAT.dir/build.make CMakeFiles/C_HAT.dir/salon/Salon.c.i
-.PHONY : salon/Salon.c.i
+message_manager/Message_Manager.c.i:
+	$(MAKE) -f CMakeFiles/C_HAT.dir/build.make CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.i
+.PHONY : message_manager/Message_Manager.c.i
 
-salon/Salon.s: salon/Salon.c.s
+message_manager/Message_Manager.s: message_manager/Message_Manager.c.s
 
-.PHONY : salon/Salon.s
+.PHONY : message_manager/Message_Manager.s
 
 # target to generate assembly for a file
-salon/Salon.c.s:
-	$(MAKE) -f CMakeFiles/C_HAT.dir/build.make CMakeFiles/C_HAT.dir/salon/Salon.c.s
-.PHONY : salon/Salon.c.s
+message_manager/Message_Manager.c.s:
+	$(MAKE) -f CMakeFiles/C_HAT.dir/build.make CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.s
+.PHONY : message_manager/Message_Manager.c.s
+
+room/Room.o: room/Room.c.o
+
+.PHONY : room/Room.o
+
+# target to build an object file
+room/Room.c.o:
+	$(MAKE) -f CMakeFiles/C_HAT.dir/build.make CMakeFiles/C_HAT.dir/room/Room.c.o
+.PHONY : room/Room.c.o
+
+room/Room.i: room/Room.c.i
+
+.PHONY : room/Room.i
+
+# target to preprocess a source file
+room/Room.c.i:
+	$(MAKE) -f CMakeFiles/C_HAT.dir/build.make CMakeFiles/C_HAT.dir/room/Room.c.i
+.PHONY : room/Room.c.i
+
+room/Room.s: room/Room.c.s
+
+.PHONY : room/Room.s
+
+# target to generate assembly for a file
+room/Room.c.s:
+	$(MAKE) -f CMakeFiles/C_HAT.dir/build.make CMakeFiles/C_HAT.dir/room/Room.c.s
+.PHONY : room/Room.c.s
 
 socket/Socket.o: socket/Socket.c.o
 
@@ -276,9 +303,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... salon/Salon.o"
-	@echo "... salon/Salon.i"
-	@echo "... salon/Salon.s"
+	@echo "... message_manager/Message_Manager.o"
+	@echo "... message_manager/Message_Manager.i"
+	@echo "... message_manager/Message_Manager.s"
+	@echo "... room/Room.o"
+	@echo "... room/Room.i"
+	@echo "... room/Room.s"
 	@echo "... socket/Socket.o"
 	@echo "... socket/Socket.i"
 	@echo "... socket/Socket.s"

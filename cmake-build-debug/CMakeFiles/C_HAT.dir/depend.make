@@ -10,16 +10,28 @@ CMakeFiles/C_HAT.dir/log/Logger.c.o: ../log/Logger.h
 CMakeFiles/C_HAT.dir/main.c.o: ../client/Client.h
 CMakeFiles/C_HAT.dir/main.c.o: ../log/Logger.h
 CMakeFiles/C_HAT.dir/main.c.o: ../main.c
-CMakeFiles/C_HAT.dir/main.c.o: ../salon/Salon.h
+CMakeFiles/C_HAT.dir/main.c.o: ../message\ manager/Message\ Manager.h
+CMakeFiles/C_HAT.dir/main.c.o: ../room/Room.h
 CMakeFiles/C_HAT.dir/main.c.o: ../socket/Socket.h
 
-CMakeFiles/C_HAT.dir/salon/Salon.c.o: ../client/Client.h
-CMakeFiles/C_HAT.dir/salon/Salon.c.o: ../salon/Salon.c
-CMakeFiles/C_HAT.dir/salon/Salon.c.o: ../salon/Salon.h
+CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o: ../client/Client.h
+CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o: ../log/Logger.h
+CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o: ../message\ manager/Message\ Manager.c
+CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o: ../message\ manager/Message\ Manager.h
+CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o: ../room/Room.h
+CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o: ../socket/Socket.h
+
+CMakeFiles/C_HAT.dir/room/Room.c.o: ../client/Client.h
+CMakeFiles/C_HAT.dir/room/Room.c.o: ../log/Logger.h
+CMakeFiles/C_HAT.dir/room/Room.c.o: ../message\ manager/Message\ Manager.h
+CMakeFiles/C_HAT.dir/room/Room.c.o: ../room/Room.c
+CMakeFiles/C_HAT.dir/room/Room.c.o: ../room/Room.h
+CMakeFiles/C_HAT.dir/room/Room.c.o: ../socket/Socket.h
 
 CMakeFiles/C_HAT.dir/socket/Socket.c.o: ../client/Client.h
 CMakeFiles/C_HAT.dir/socket/Socket.c.o: ../log/Logger.h
-CMakeFiles/C_HAT.dir/socket/Socket.c.o: ../salon/Salon.h
+CMakeFiles/C_HAT.dir/socket/Socket.c.o: ../message\ manager/Message\ Manager.h
+CMakeFiles/C_HAT.dir/socket/Socket.c.o: ../room/Room.h
 CMakeFiles/C_HAT.dir/socket/Socket.c.o: ../socket/Socket.c
 CMakeFiles/C_HAT.dir/socket/Socket.c.o: ../socket/Socket.h
 

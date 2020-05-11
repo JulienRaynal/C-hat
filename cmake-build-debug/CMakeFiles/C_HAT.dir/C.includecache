@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/kya/CLionProjects/C-HAT/client/Client.h
-stddef.h
--
-string.h
--
-stdlib.h
--
-pthread.h
--
+/home/kya/CLionProjects/C-HAT julien/log/Logger.c
+Logger.h
+/home/kya/CLionProjects/C-HAT julien/log/Logger.h
 
-/home/kya/CLionProjects/C-HAT/log/Logger.h
+/home/kya/CLionProjects/C-HAT julien/log/Logger.h
 stdio.h
 -
 stdlib.h
@@ -25,46 +19,4 @@ stdarg.h
 -
 time.h
 -
-
-/home/kya/CLionProjects/C-HAT/salon/Salon.h
-../client/Client.h
-/home/kya/CLionProjects/C-HAT/client/Client.h
-stddef.h
--
-stdlib.h
--
-string.h
--
-
-/home/kya/CLionProjects/C-HAT/socket/Socket.c
-Socket.h
-/home/kya/CLionProjects/C-HAT/socket/Socket.h
-
-/home/kya/CLionProjects/C-HAT/socket/Socket.h
-unistd.h
--
-stdio.h
--
-sys/socket.h
--
-stdlib.h
--
-netinet/in.h
--
-string.h
--
-errno.h
--
-arpa/inet.h
--
-fcntl.h
--
-pthread.h
--
-../log/Logger.h
-/home/kya/CLionProjects/C-HAT/log/Logger.h
-../client/Client.h
-/home/kya/CLionProjects/C-HAT/client/Client.h
-../salon/Salon.h
-/home/kya/CLionProjects/C-HAT/salon/Salon.h
 

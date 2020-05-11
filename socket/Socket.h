@@ -19,7 +19,8 @@
 
 #include "../log/Logger.h"
 #include "../client/Client.h"
-#include "../salon/Salon.h"
+#include "../room/Room.h"
+#include "../message manager/Message Manager.h"
 
 //Listening Port
 #define PORT 1234
@@ -48,13 +49,11 @@ void *manage_client(void *arg);
 void start_socket();
 
 
-void send_msg(client *ptr_client, char *format, ...);
+void send_self_msg(client *ptr_client, char *format, ...);
 //Structure holding our clients
 #define CLIENTS_SIZE 10
 client clients[CLIENTS_SIZE]; //object collection or struct collection is written with an "s" in prog
 
-#define ROOM_MAX 5
-room rooms[ROOM_MAX];
 
 
 #endif //C_HAT_SOCKET_H

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/kya/CLionProjects/C-HAT/cmake-build-debug"/>
+				<Option working_dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/kya/CLionProjects/C-HAT/cmake-build-debug"/>
+				<Option working_dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/kya/CLionProjects/C-HAT/cmake-build-debug"/>
+				<Option working_dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_HAT">
-				<Option output="/home/kya/CLionProjects/C-HAT/cmake-build-debug/C_HAT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kya/CLionProjects/C-HAT/cmake-build-debug"/>
+				<Option output="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/C_HAT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_HAT"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_HAT"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_HAT/fast">
-				<Option output="/home/kya/CLionProjects/C-HAT/cmake-build-debug/C_HAT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kya/CLionProjects/C-HAT/cmake-build-debug"/>
+				<Option output="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/C_HAT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,41 +71,47 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_HAT/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_HAT/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/kya/CLionProjects/C-HAT\ julien/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kya/CLionProjects/C-HAT/client/Client.c">
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/client/Client.c">
 			<Option target="C_HAT"/>
 		</Unit>
-		<Unit filename="/home/kya/CLionProjects/C-HAT/client/Client.h">
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/client/Client.h">
 			<Option target="C_HAT"/>
 		</Unit>
-		<Unit filename="/home/kya/CLionProjects/C-HAT/log/Logger.c">
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/log/Logger.c">
 			<Option target="C_HAT"/>
 		</Unit>
-		<Unit filename="/home/kya/CLionProjects/C-HAT/log/Logger.h">
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/log/Logger.h">
 			<Option target="C_HAT"/>
 		</Unit>
-		<Unit filename="/home/kya/CLionProjects/C-HAT/main.c">
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/main.c">
 			<Option target="C_HAT"/>
 		</Unit>
-		<Unit filename="/home/kya/CLionProjects/C-HAT/salon/Salon.c">
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/message manager/Message Manager.c">
 			<Option target="C_HAT"/>
 		</Unit>
-		<Unit filename="/home/kya/CLionProjects/C-HAT/salon/Salon.h">
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/message manager/Message Manager.h">
 			<Option target="C_HAT"/>
 		</Unit>
-		<Unit filename="/home/kya/CLionProjects/C-HAT/socket/Socket.c">
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/room/Room.c">
 			<Option target="C_HAT"/>
 		</Unit>
-		<Unit filename="/home/kya/CLionProjects/C-HAT/socket/Socket.h">
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/room/Room.h">
 			<Option target="C_HAT"/>
 		</Unit>
-		<Unit filename="/home/kya/CLionProjects/C-HAT/CMakeLists.txt">
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/socket/Socket.c">
+			<Option target="C_HAT"/>
+		</Unit>
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/socket/Socket.h">
+			<Option target="C_HAT"/>
+		</Unit>
+		<Unit filename="/home/kya/CLionProjects/C-HAT julien/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

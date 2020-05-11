@@ -1,1249 +1,887 @@
-Mon Apr 27 01:05:54 2020
+Tue May  5 12:59:36 2020
  Création de la socket
 
-Mon Apr 27 01:05:54 2020
+Tue May  5 12:59:36 2020
  Paramètrage de la socket
 
-Mon Apr 27 01:05:54 2020
+Tue May  5 12:59:36 2020
  Attachement de la socket sur le port 1234
 
-Mon Apr 27 01:05:54 2020
+Tue May  5 12:59:36 2020
  Mise en écoute de la socket
 
-Mon Apr 27 01:05:56 2020
- Connexion from 127.0.0.1:53946
-Mon Apr 27 01:05:59 2020
- Receive from the socket 5 :
- (null) : kyabe
-
-Mon Apr 27 01:05:59 2020
- Message freed
-Mon Apr 27 01:06:03 2020
- Receive from the socket 5 :
- kyabe : this is a test
-
-Mon Apr 27 01:06:03 2020
- Message freed
-Mon Apr 27 01:06:19 2020
- Connexion from 127.0.0.1:56506
-Mon Apr 27 01:06:22 2020
- Receive from the socket 6 :
- (null) : kya
-
-Mon Apr 27 01:06:22 2020
- Message freed
-Mon Apr 27 01:06:25 2020
- Receive from the socket 6 :
- kya : salut
-
-Mon Apr 27 01:06:25 2020
- Message freed
-Mon Apr 27 01:11:17 2020
- Création de la socket
-
-Mon Apr 27 01:11:17 2020
- Paramètrage de la socket
-
-Mon Apr 27 01:11:17 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 01:11:17 2020
- Mise en écoute de la socket
-
-Mon Apr 27 01:11:22 2020
- Connexion from 127.0.0.1:9403
-Mon Apr 27 01:11:25 2020
- Connexion from 127.0.0.1:9915
-Mon Apr 27 01:11:27 2020
- Receive from the socket 5 :
- (null) : kyabe
-
-Mon Apr 27 01:11:27 2020
- Message freed
-Mon Apr 27 01:11:30 2020
- Receive from the socket 6 :
- (null) : kya
-
-Mon Apr 27 01:11:30 2020
- Message freed
-Mon Apr 27 01:11:32 2020
- Receive from the socket 6 :
- kya : salut
-
-Mon Apr 27 01:11:32 2020
- Message freed
-Mon Apr 27 01:11:35 2020
- Receive from the socket 6 :
- kya : je test
-
-Mon Apr 27 01:11:35 2020
- Message freed
-Mon Apr 27 01:11:37 2020
- Receive from the socket 6 :
- kya : si
-
-Mon Apr 27 01:11:37 2020
- Message freed
-Mon Apr 27 01:11:39 2020
- Receive from the socket 6 :
- kya : tout 
-
-Mon Apr 27 01:11:39 2020
- Message freed
-Mon Apr 27 01:11:41 2020
- Receive from the socket 6 :
- kya : fonctionne
-
-Mon Apr 27 01:11:41 2020
- Message freed
-Mon Apr 27 01:11:51 2020
- Receive from the socket 5 :
- kyabe : tout a l'air de fonctionner
-
-Mon Apr 27 01:11:51 2020
- Message freed
-Mon Apr 27 01:11:56 2020
- Receive from the socket 5 :
- kyabe : vdznljkvdhn zjlmf hsqjlk mgshjlg ghfqejkgfeq hjk:bqsfhjk:gb fdqlmjgfa
-
-Mon Apr 27 01:11:56 2020
- Message freed
-Mon Apr 27 01:11:59 2020
- Receive from the socket 5 :
- kyabe : !nick
-
-Mon Apr 27 01:11:59 2020
- Message freed
-Mon Apr 27 01:12:06 2020
- Receive from the socket 5 :
- kyabe : kyabetsu
-
-Mon Apr 27 01:12:06 2020
- Message freed
-Mon Apr 27 01:12:13 2020
- Receive from the socket 5 :
- kyabetsu : t'as vu mon nouveau pseudop
-
-Mon Apr 27 01:12:13 2020
- Message freed
-Mon Apr 27 01:12:21 2020
- Receive from the socket 5 :
- kyabetsu : att je change de salon
-
-Mon Apr 27 01:12:21 2020
- Message freed
-Mon Apr 27 01:12:24 2020
- Receive from the socket 5 :
- kyabetsu : !room
-
-Mon Apr 27 01:12:24 2020
- Message freed
-Mon Apr 27 01:12:27 2020
- Receive from the socket 5 :
- kyabetsu : 3
-
-Mon Apr 27 01:15:50 2020
- Création de la socket
-
-Mon Apr 27 01:15:50 2020
- Paramètrage de la socket
-
-Mon Apr 27 01:15:50 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 01:15:50 2020
- Mise en écoute de la socket
-
-Mon Apr 27 01:15:54 2020
- Connexion from 127.0.0.1:16571
-Mon Apr 27 01:15:58 2020
- Receive from the socket 5 :
- (null) : Kya
-
-Mon Apr 27 01:15:58 2020
- Message freed
-Mon Apr 27 01:16:00 2020
- Connexion from 127.0.0.1:17595
-Mon Apr 27 01:16:04 2020
- Receive from the socket 6 :
- (null) : kyabe
-
-Mon Apr 27 01:16:04 2020
- Message freed
-Mon Apr 27 01:16:05 2020
- Receive from the socket 6 :
- kyabe : test
-
-Mon Apr 27 15:28:10 2020
- Création de la socket
-
-Mon Apr 27 15:28:10 2020
- Paramètrage de la socket
-
-Mon Apr 27 15:28:10 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 15:28:10 2020
- Mise en écoute de la socket
-
-Mon Apr 27 15:28:18 2020
- Connexion from 127.0.0.1:65172
-Mon Apr 27 15:28:20 2020
- Connexion from 127.0.0.1:149
-Mon Apr 27 15:28:22 2020
- Receive from the socket 6 :
- (null) : kyabe
-
-Mon Apr 27 15:28:22 2020
- Message freed
-Mon Apr 27 15:28:24 2020
+Tue May  5 12:59:39 2020
+ Connexion from 127.0.0.1:31897
+Tue May  5 12:59:40 2020
  Receive from the socket 5 :
  (null) : kya
 
-Mon Apr 27 15:28:24 2020
- Message freed
-Mon Apr 27 15:28:25 2020
- Receive from the socket 5 :
- kya : salut
-
-Mon Apr 27 15:28:25 2020
- Message freed
-Mon Apr 27 15:28:27 2020
- Receive from the socket 5 :
- kya : je test
-
-Mon Apr 27 15:28:27 2020
- Message freed
-Mon Apr 27 15:28:32 2020
- Receive from the socket 5 :
- kya : mec t'es trop fort
-
-Mon Apr 27 15:28:32 2020
- Message freed
-Mon Apr 27 15:28:38 2020
- Receive from the socket 6 :
- kyabe : toi aussi t'es trop fort
-
-Mon Apr 27 15:28:38 2020
- Message freed
-Mon Apr 27 15:28:40 2020
- Receive from the socket 6 :
- kyabe : c'est fou
-
-Mon Apr 27 15:28:40 2020
- Message freed
-Mon Apr 27 15:28:43 2020
- Receive from the socket 6 :
- kyabe : !exit
-
-Mon Apr 27 15:28:43 2020
- The user : kyabe has left
-
-Mon Apr 27 15:28:43 2020
- Message freed
-Mon Apr 27 15:28:46 2020
- Receive from the socket 5 :
- kya : !exit
-
-Mon Apr 27 15:28:46 2020
- The user : kya has left
-
-Mon Apr 27 15:28:46 2020
- Message freed
-Mon Apr 27 15:33:39 2020
- Création de la socket
-
-Mon Apr 27 15:33:39 2020
- Paramètrage de la socket
-
-Mon Apr 27 15:33:39 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 15:33:39 2020
- Mise en écoute de la socket
-
-Mon Apr 27 15:33:42 2020
- Connexion from 127.0.0.1:46229
-Mon Apr 27 15:33:44 2020
- Receive from the socket 5 :
- (null) : Kyabe
-
-Mon Apr 27 15:33:44 2020
- Message freed
-Mon Apr 27 15:36:02 2020
- Receive from the socket 5 :
- Kyabe : test
-
-Mon Apr 27 15:36:02 2020
- Message freed
-Mon Apr 27 15:36:31 2020
- Receive from the socket 5 :
- Kyabe : test
-
-Mon Apr 27 15:36:31 2020
- Message freed
-Mon Apr 27 15:36:34 2020
- Receive from the socket 5 :
- Kyabe : encore
-
-Mon Apr 27 15:36:34 2020
- Message freed
-Mon Apr 27 15:37:42 2020
- Connexion from 86.193.22.127:7366
-Mon Apr 27 15:37:44 2020
- Receive from the socket 6 :
- (null) : oui 
-
-Mon Apr 27 15:37:44 2020
- Message freed
-Mon Apr 27 15:37:45 2020
- Receive from the socket 6 :
- oui  : dscds
-
-Mon Apr 27 15:37:45 2020
- Message freed
-Mon Apr 27 15:37:46 2020
- Receive from the socket 6 :
- oui  : vc
-
-Mon Apr 27 15:37:46 2020
- Message freed
-Mon Apr 27 15:37:46 2020
- Receive from the socket 6 :
- oui  : vfd
-
-Mon Apr 27 15:37:46 2020
- Message freed
-Mon Apr 27 15:37:59 2020
- Receive from the socket 5 :
- Kyabe : mec c'est ouf
-
-Mon Apr 27 15:37:59 2020
- Message freed
-Mon Apr 27 15:38:10 2020
- Receive from the socket 5 :
- Kyabe : on a créé un discord mais en moins bien
-
-Mon Apr 27 15:38:10 2020
- Message freed
-Mon Apr 27 15:38:17 2020
- Receive from the socket 6 :
- oui  : vfdc'est bwtf
-
-Mon Apr 27 15:38:17 2020
- Message freed
-Mon Apr 27 15:38:58 2020
- Receive from the socket 5 :
- Kyabe : bon je retourne bosser le code pour qu'il soit encore plus ouf
-
-Mon Apr 27 15:38:58 2020
- Message freed
-Mon Apr 27 15:39:00 2020
- Receive from the socket 5 :
- Kyabe : !exit
-
-Mon Apr 27 15:39:00 2020
- The user : Kyabe has left
-
-Mon Apr 27 15:39:00 2020
- Message freed
-Mon Apr 27 15:39:07 2020
- Receive from the socket 6 :
- oui  : par contre il y a un problème sur l'affichage dec que l'on ecrit en méme temps
-
-Mon Apr 27 15:39:07 2020
- Message freed
-Mon Apr 27 15:39:15 2020
- Receive from the socket 6 :
- oui  : !exit
-
-Mon Apr 27 15:39:15 2020
- The user : oui  has left
-
-Mon Apr 27 15:39:15 2020
- Message freed
-Mon Apr 27 16:16:45 2020
- Création de la socket
-
-Mon Apr 27 16:16:45 2020
- Paramètrage de la socket
-
-Mon Apr 27 16:16:45 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 16:16:45 2020
- Mise en écoute de la socket
-
-Mon Apr 27 16:16:54 2020
- Connexion from 127.0.0.1:52374
-Mon Apr 27 16:16:58 2020
- Connexion from 127.0.0.1:52886
-Mon Apr 27 16:17:01 2020
- Receive from the socket 6 :
- (null) : kyabe
-
-Mon Apr 27 16:17:01 2020
- Message freed
-Mon Apr 27 16:17:03 2020
- Receive from the socket 5 :
- (null) : kya
-
-Mon Apr 27 16:17:03 2020
- Message freed
-Mon Apr 27 16:17:05 2020
+Tue May  5 13:00:03 2020
  Receive from the socket 5 :
  kya : test
 
-Mon Apr 27 16:17:11 2020
+Tue May  5 13:00:18 2020
+ Connexion from 86.227.145.205:32421
+Tue May  5 13:00:23 2020
  Receive from the socket 6 :
- kyabe : n test
+ (null) : !users
 
-Mon Apr 27 16:17:20 2020
+Tue May  5 13:00:25 2020
+ Receive from the socket 5 :
+ kya : !users
+
+Tue May  5 13:00:28 2020
  Receive from the socket 6 :
- kyabe : 
+ !users : !users
 
-Mon Apr 27 16:17:22 2020
+Tue May  5 13:00:31 2020
+ Receive from the socket 6 :
+ !users : yo
+
+Tue May  5 13:00:36 2020
+ Receive from the socket 5 :
+ kya : fedzfezfez
+
+Tue May  5 13:00:42 2020
+ Receive from the socket 6 :
+ !users : !create
+
+Tue May  5 13:00:46 2020
+ Receive from the socket 6 :
+ !users : Blyarmt
+
+Tue May  5 13:00:51 2020
+ Receive from the socket 5 :
+ kya : !room 1
+
+Tue May  5 13:00:53 2020
+ Receive from the socket 5 :
+ kya : fezafezf
+
+Tue May  5 13:01:35 2020
+ Création de la socket
+
+Tue May  5 13:01:35 2020
+ Paramètrage de la socket
+
+Tue May  5 13:01:35 2020
+ Attachement de la socket sur le port 1234
+
+Tue May  5 13:01:35 2020
+ Mise en écoute de la socket
+
+Tue May  5 13:01:38 2020
+ Connexion from 127.0.0.1:33945
+Tue May  5 13:01:40 2020
+ Connexion from 93.23.18.117:7318
+Tue May  5 13:01:42 2020
+ Receive from the socket 5 :
+ (null) : kya
+
+Tue May  5 13:01:51 2020
+ Connexion from 86.227.145.205:42149
+Tue May  5 13:01:51 2020
+ Receive from the socket 5 :
+ kya : feafezfez
+
+Tue May  5 13:01:51 2020
+ Errno [104] : Connection reset by peer
+
+Tue May  5 13:01:52 2020
+ Receive from the socket 5 :
+ kya : fezfezvrargeagra
+
+Tue May  5 13:01:53 2020
+ Receive from the socket 7 :
+ (null) : Ju
+
+Tue May  5 13:01:55 2020
+ Receive from the socket 7 :
+ Ju : Yo
+
+Tue May  5 13:02:02 2020
+ Receive from the socket 5 :
+ kya : !u!users
+
+Tue May  5 13:02:05 2020
+ Receive from the socket 7 :
+ Ju : !users
+
+Tue May  5 13:02:07 2020
+ Receive from the socket 5 :
+ kya : fzrzfzfe
+
+Tue May  5 13:02:08 2020
+ Receive from the socket 5 :
+ kya : fezfzeerfzafaez
+
+Tue May  5 13:02:11 2020
+ Receive from the socket 5 :
+ kya : !users
+
+Tue May  5 13:02:17 2020
+ Receive from the socket 7 :
+ Ju : !create
+
+Tue May  5 13:02:19 2020
+ Receive from the socket 7 :
+ Ju : Blyat
+
+Tue May  5 13:02:25 2020
+ Receive from the socket 5 :
+ kya : !room 1
+
+Tue May  5 13:02:28 2020
+ Receive from the socket 7 :
+ Ju : !room 1
+
+Tue May  5 13:02:32 2020
+ Receive from the socket 5 :
+ kya : fezfrazfzafeza
+
+Tue May  5 13:02:33 2020
+ Receive from the socket 5 :
+ kya : zefezfezf
+
+Tue May  5 13:02:36 2020
+ Receive from the socket 5 :
+ kya : !room
+
+Tue May  5 13:02:48 2020
+ Receive from the socket 7 :
+ Ju : !exit
+
+Tue May  5 13:02:48 2020
+ The user : Ju has left
+
+Tue May  5 13:02:48 2020
+ Message freed
+Tue May  5 13:02:51 2020
+ Connexion from 86.227.145.205:46757
+Tue May  5 13:02:54 2020
+ Receive from the socket 8 :
+ (null) : Ju
+
+Tue May  5 13:02:57 2020
+ Receive from the socket 8 :
+ Ju : !create
+
+Tue May  5 13:03:00 2020
+ Receive from the socket 8 :
+ Ju : Blyat
+
+Tue May  5 13:03:07 2020
+ Receive from the socket 5 :
+ kya : !room 1
+
+Tue May  5 13:03:09 2020
+ Receive from the socket 5 :
+ kya : !exit*
+
+Tue May  5 13:03:09 2020
+ The user : kya has left
+
+Tue May  5 13:03:09 2020
+ Message freed
+Tue May  5 13:05:09 2020
+ Création de la socket
+
+Tue May  5 13:05:09 2020
+ Paramètrage de la socket
+
+Tue May  5 13:05:09 2020
+ Attachement de la socket sur le port 1234
+
+Tue May  5 13:05:09 2020
+ Mise en écoute de la socket
+
+Tue May  5 13:05:13 2020
+ Connexion from 127.0.0.1:35993
+Tue May  5 13:05:16 2020
+ Receive from the socket 5 :
+ (null) : kya
+
+Tue May  5 13:05:16 2020
+ Connexion from 86.227.145.205:50853
+Tue May  5 13:05:18 2020
+ Receive from the socket 6 :
+ (null) : Ju
+
+Tue May  5 13:05:22 2020
+ Receive from the socket 5 :
+ kya : !room 1
+
+Tue May  5 13:05:22 2020
+ Receive from the socket 6 :
+ Ju : !create
+
+Tue May  5 13:05:24 2020
+ Receive from the socket 6 :
+ Ju : Blyat
+
+Tue May  5 13:05:25 2020
+ Receive from the socket 5 :
+ kya : !room
+
+Tue May  5 13:05:30 2020
+ Receive from the socket 6 :
+ Ju : !room 1
+
+Tue May  5 13:05:38 2020
+ Receive from the socket 6 :
+ Ju : !exit
+
+Tue May  5 13:05:38 2020
+ The user : Ju has left
+
+Tue May  5 13:05:38 2020
+ Message freed
+Tue May  5 13:05:39 2020
+ Connexion from 86.227.145.205:51365
+Tue May  5 13:05:42 2020
+ Receive from the socket 7 :
+ (null) : Ju
+
+Tue May  5 13:05:47 2020
+ Receive from the socket 7 :
+ Ju : !create
+
+Tue May  5 13:05:51 2020
+ Receive from the socket 7 :
+ Ju : qblyat
+
+Tue May  5 13:05:58 2020
+ Receive from the socket 5 :
+ kya : !exit
+
+Tue May  5 13:05:58 2020
+ The user : kya has left
+
+Tue May  5 13:05:58 2020
+ Message freed
+Tue May  5 13:10:21 2020
+ Création de la socket
+
+Tue May  5 13:10:21 2020
+ Paramètrage de la socket
+
+Tue May  5 13:10:21 2020
+ Attachement de la socket sur le port 1234
+
+Tue May  5 13:10:21 2020
+ Mise en écoute de la socket
+
+Tue May  5 13:10:24 2020
+ Connexion from 127.0.0.1:40089
+Tue May  5 13:10:26 2020
+ Receive from the socket 5 :
+ (null) : kya*
+
+Tue May  5 13:10:33 2020
+ Connexion from 86.227.145.205:53413
+Tue May  5 13:10:35 2020
+ Receive from the socket 6 :
+ (null) : Ju
+
+Tue May  5 13:10:39 2020
+ Receive from the socket 6 :
+ Ju : yo
+
+Tue May  5 13:10:41 2020
+ Receive from the socket 5 :
+ kya* : grzgrzafrez
+
+Tue May  5 13:10:43 2020
+ Receive from the socket 5 :
+ kya* : gzrafezafdaezfdeza
+
+Tue May  5 13:10:54 2020
+ Receive from the socket 6 :
+ Ju : !create
+
+Tue May  5 13:10:57 2020
+ Receive from the socket 6 :
+ Ju : Blyat
+
+Tue May  5 13:11:03 2020
+ Receive from the socket 6 :
+ Ju : !room 1
+
+Tue May  5 13:11:09 2020
+ Receive from the socket 6 :
+ Ju : !exit
+
+Tue May  5 13:11:09 2020
+ The user : Ju has left
+
+Tue May  5 13:11:09 2020
+ Message freed
+Tue May  5 13:11:46 2020
+ Création de la socket
+
+Tue May  5 13:11:46 2020
+ Paramètrage de la socket
+
+Tue May  5 13:11:46 2020
+ Attachement de la socket sur le port 1234
+
+Tue May  5 13:11:46 2020
+ Mise en écoute de la socket
+
+Tue May  5 13:11:50 2020
+ Connexion from 127.0.0.1:42137
+Tue May  5 13:11:53 2020
+ Receive from the socket 5 :
+ (null) : kya
+
+Tue May  5 13:11:56 2020
+ Receive from the socket 5 :
+ kya : vdsavfqvdsavdqsvf
+
+Tue May  5 13:12:05 2020
+ Receive from the socket 5 :
+ kya : fdqfzafazfazfez
+
+Tue May  5 13:12:06 2020
+ Receive from the socket 5 :
+ kya : dsfazfez
+
+Tue May  5 13:12:10 2020
+ Receive from the socket 5 :
+ kya : !users
+
+Tue May  5 13:12:14 2020
+ Receive from the socket 5 :
+ kya : !help
+
+Tue May  5 13:12:22 2020
+ Connexion from 86.227.145.205:59557
+Tue May  5 13:12:24 2020
+ Receive from the socket 6 :
+ (null) : Ju
+
+Tue May  5 13:12:26 2020
+ Receive from the socket 6 :
+ Ju : yo
+
+Tue May  5 13:12:27 2020
+ Receive from the socket 5 :
+ kya : vdzavdaz
+
+Tue May  5 13:12:31 2020
+ Receive from the socket 6 :
+ Ju : !create
+
+Tue May  5 13:12:34 2020
+ Receive from the socket 6 :
+ Ju : Blyat
+
+Tue May  5 13:12:37 2020
+ Receive from the socket 6 :
+ Ju : !exit
+
+Tue May  5 13:12:37 2020
+ The user : Ju has left
+
+Tue May  5 13:12:37 2020
+ Message freed
+Tue May  5 13:12:40 2020
+ Connexion from 86.227.145.205:60069
+Tue May  5 13:12:45 2020
+ Receive from the socket 7 :
+ (null) : Ju
+
+Tue May  5 13:12:49 2020
+ Receive from the socket 7 :
+ Ju : !create
+
+Tue May  5 13:12:50 2020
+ Receive from the socket 5 :
+ kya : !users
+
+Tue May  5 13:12:52 2020
+ Receive from the socket 7 :
+ Ju : Blyat
+
+Tue May  5 13:13:05 2020
+ Receive from the socket 5 :
+ kya : !exit
+
+Tue May  5 13:13:05 2020
+ The user : kya has left
+
+Tue May  5 13:13:05 2020
+ Message freed
+Tue May  5 13:13:28 2020
+ Receive from the socket 7 :
+ Ju : !create
+
+Tue May  5 13:13:31 2020
+ Receive from the socket 7 :
+ Ju : Blyat
+
+Tue May  5 13:19:58 2020
+ Création de la socket
+
+Tue May  5 13:19:58 2020
+ Paramètrage de la socket
+
+Tue May  5 13:19:58 2020
+ Attachement de la socket sur le port 1234
+
+Tue May  5 13:19:58 2020
+ Mise en écoute de la socket
+
+Tue May  5 13:20:09 2020
+ Connexion from 127.0.0.1:47257
+Tue May  5 13:20:11 2020
+ Receive from the socket 5 :
+ (null) : kya
+
+Tue May  5 13:20:12 2020
+ Connexion from 127.0.0.1:47769
+Tue May  5 13:20:14 2020
+ Receive from the socket 6 :
+ (null) : kyabe
+
+Tue May  5 13:20:16 2020
  Receive from the socket 6 :
  kyabe : test
 
-Mon Apr 27 16:17:25 2020
+Tue May  5 13:20:24 2020
  Receive from the socket 6 :
- kyabe : n test
+ kyabe : !create
 
-Mon Apr 27 16:17:41 2020
- Receive from the socket 5 :
- kya : n test
-
-Mon Apr 27 16:21:18 2020
- Création de la socket
-
-Mon Apr 27 16:21:18 2020
- Paramètrage de la socket
-
-Mon Apr 27 16:21:18 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 16:21:18 2020
- Mise en écoute de la socket
-
-Mon Apr 27 16:21:27 2020
- Connexion from 127.0.0.1:56982
-Mon Apr 27 16:21:28 2020
- Receive from the socket 5 :
- (null) : kya
-
-Mon Apr 27 16:21:28 2020
- Message freed
-Mon Apr 27 16:21:31 2020
- Connexion from 127.0.0.1:58006
-Mon Apr 27 16:21:33 2020
+Tue May  5 13:20:32 2020
  Receive from the socket 6 :
- (null) : kyabe
+ kyabe : bloup
 
-Mon Apr 27 16:21:33 2020
- Message freed
-Mon Apr 27 16:21:38 2020
- Receive from the socket 6 :
- kyabe : ceci est un test
-
-Mon Apr 27 16:21:46 2020
+Tue May  5 13:20:38 2020
  Receive from the socket 5 :
- kya : cfgrzgrzgzrfjezjfjezgf ,khf vfb fen;zb fkezb vfezkhkhfez
+ kya : !room 1
 
-Mon Apr 27 16:22:00 2020
+Tue May  5 13:20:44 2020
  Receive from the socket 5 :
- kya : !exit
+ kya : !room
 
-Mon Apr 27 16:22:00 2020
- The user : kya has left
-
-Mon Apr 27 16:22:00 2020
- Message freed
-Mon Apr 27 16:22:02 2020
+Tue May  5 13:20:53 2020
  Receive from the socket 6 :
  kyabe : !exit
 
-Mon Apr 27 16:22:02 2020
+Tue May  5 13:20:53 2020
  The user : kyabe has left
 
-Mon Apr 27 16:22:02 2020
- Message freed
-Mon Apr 27 16:26:34 2020
- Connexion from 86.193.22.127:26822
-Mon Apr 27 16:26:37 2020
- Receive from the socket 7 :
- (null) : ali
+Tue May  5 13:20:55 2020
+ Receive from the socket 5 :
+ kya : 
 
-Mon Apr 27 16:26:37 2020
- Message freed
-Mon Apr 27 16:27:16 2020
+Tue May  5 13:20:59 2020
+ Receive from the socket 5 :
+ kya : !room 1
+
+Tue May  5 13:21:01 2020
+ Receive from the socket 5 :
+ kya : !exit
+
+Tue May  5 13:21:01 2020
+ The user : kya has left
+
+Tue May  5 13:26:42 2020
  Création de la socket
 
-Mon Apr 27 16:27:16 2020
+Tue May  5 13:26:42 2020
  Paramètrage de la socket
 
-Mon Apr 27 16:27:16 2020
+Tue May  5 13:26:42 2020
  Attachement de la socket sur le port 1234
 
-Mon Apr 27 16:27:16 2020
+Tue May  5 13:26:42 2020
  Mise en écoute de la socket
 
-Mon Apr 27 16:27:21 2020
- Connexion from 86.193.22.127:27334
-Mon Apr 27 16:27:22 2020
- Connexion from 127.0.0.1:6295
-Mon Apr 27 16:27:29 2020
+Tue May  5 13:26:50 2020
+ Connexion from 127.0.0.1:3738
+Tue May  5 13:26:51 2020
+ Connexion from 127.0.0.1:4250
+Tue May  5 13:26:53 2020
+ Receive from the socket 6 :
+ (null) : kya
+
+Tue May  5 13:26:56 2020
+ Receive from the socket 5 :
+ (null) : kyabe
+
+Tue May  5 13:27:06 2020
+ Receive from the socket 5 :
+ kyabe : !create blyat
+
+Tue May  5 13:27:10 2020
+ Receive from the socket 5 :
+ kyabe : blyeat
+
+Tue May  5 13:27:15 2020
+ Receive from the socket 5 :
+ kyabe : !exit
+
+Tue May  5 13:27:15 2020
+ The user : kyabe has left
+
+Tue May  5 13:27:21 2020
+ Receive from the socket 6 :
+ kya : !room 1
+
+Tue May  5 13:27:26 2020
+ Receive from the socket 6 :
+ kya : !exit
+
+Tue May  5 13:27:26 2020
+ The user : kya has left
+
+Tue May  5 13:28:11 2020
+ Création de la socket
+
+Tue May  5 13:28:11 2020
+ Paramètrage de la socket
+
+Tue May  5 13:28:11 2020
+ Attachement de la socket sur le port 1234
+
+Tue May  5 13:28:11 2020
+ Mise en écoute de la socket
+
+Tue May  5 13:28:17 2020
+ Connexion from 127.0.0.1:5274
+Tue May  5 13:28:19 2020
+ Receive from the socket 5 :
+ (null) : kya
+
+Tue May  5 13:28:21 2020
+ Connexion from 127.0.0.1:5786
+Tue May  5 13:28:22 2020
  Receive from the socket 6 :
  (null) : kyabe
 
-Mon Apr 27 16:27:32 2020
- Receive from the socket 5 :
- (null) : vfdsv
-
-Mon Apr 27 16:27:37 2020
- Receive from the socket 5 :
- vfdsv : vfdsv
-
-Mon Apr 27 16:27:59 2020
+Tue May  5 13:28:27 2020
  Receive from the socket 6 :
- kyabe : gzgrzgregrzr
+ kyabe : !create
 
-Mon Apr 27 16:28:03 2020
+Tue May  5 13:28:29 2020
  Receive from the socket 6 :
- kyabe : 
+ kyabe : bite
 
-Mon Apr 27 16:28:06 2020
+Tue May  5 13:28:39 2020
  Receive from the socket 6 :
  kyabe : !exit
 
-Mon Apr 27 16:28:06 2020
+Tue May  5 13:28:39 2020
  The user : kyabe has left
 
-Mon Apr 27 16:28:06 2020
- Message freed
-Mon Apr 27 16:28:09 2020
+Tue May  5 13:28:41 2020
  Receive from the socket 5 :
- vfdsv : !e!exit
+ kya : 
 
-Mon Apr 27 16:28:15 2020
+Tue May  5 13:28:44 2020
  Receive from the socket 5 :
- vfdsv : !exit
+ kya : !room 1
 
-Mon Apr 27 16:28:15 2020
- The user : vfdsv has left
-
-Mon Apr 27 16:28:15 2020
- Message freed
-Mon Apr 27 16:29:50 2020
- Connexion from 127.0.0.1:10391
-Mon Apr 27 16:29:51 2020
- Receive from the socket 7 :
- (null) : kya
-
-Mon Apr 27 16:29:53 2020
- Connexion from 127.0.0.1:10903
-Mon Apr 27 16:29:55 2020
+Tue May  5 13:28:47 2020
  Receive from the socket 5 :
- (null) : kyabe
-
-Mon Apr 27 16:30:01 2020
- Receive from the socket 5 :
- kyabe : saliut
-
-Mon Apr 27 16:30:03 2020
- Receive from the socket 5 :
- kyabe : vzvzvezfze
-
-Mon Apr 27 16:30:04 2020
- Receive from the socket 5 :
- kyabe : fzefezfez
-
-Mon Apr 27 16:30:17 2020
- Receive from the socket 7 :
  kya : !exit
 
-Mon Apr 27 16:30:17 2020
+Tue May  5 13:28:47 2020
  The user : kya has left
 
-Mon Apr 27 16:30:17 2020
- Message freed
-Mon Apr 27 16:35:15 2020
+Tue May  5 13:29:39 2020
  Création de la socket
 
-Mon Apr 27 16:35:15 2020
+Tue May  5 13:29:39 2020
  Paramètrage de la socket
 
-Mon Apr 27 16:35:15 2020
+Tue May  5 13:29:39 2020
  Attachement de la socket sur le port 1234
 
-Mon Apr 27 16:35:15 2020
+Tue May  5 13:29:39 2020
  Mise en écoute de la socket
 
-Mon Apr 27 16:35:23 2020
- Connexion from 127.0.0.1:15511
-Mon Apr 27 16:39:37 2020
+Tue May  5 13:30:23 2020
  Création de la socket
 
-Mon Apr 27 16:39:37 2020
+Tue May  5 13:30:23 2020
  Paramètrage de la socket
 
-Mon Apr 27 16:39:37 2020
+Tue May  5 13:30:23 2020
  Attachement de la socket sur le port 1234
 
-Mon Apr 27 16:39:37 2020
+Tue May  5 13:30:23 2020
  Mise en écoute de la socket
 
-Mon Apr 27 16:39:40 2020
- Connexion from 127.0.0.1:23191
-Mon Apr 27 16:40:44 2020
- Création de la socket
-
-Mon Apr 27 16:40:44 2020
- Paramètrage de la socket
-
-Mon Apr 27 16:40:44 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 16:40:44 2020
- Mise en écoute de la socket
-
-Mon Apr 27 16:40:47 2020
- Connexion from 127.0.0.1:24215
-Mon Apr 27 16:41:53 2020
+Tue May  5 13:30:28 2020
+ Connexion from 127.0.0.1:29338
+Tue May  5 13:30:30 2020
  Receive from the socket 5 :
  (null) : kya
 
-Mon Apr 27 16:42:50 2020
- Receive from the socket 5 :
- kya : vbvfsqvbfqsvdqsfds ferzza
-
-Mon Apr 27 16:44:07 2020
- Création de la socket
-
-Mon Apr 27 16:44:07 2020
- Paramètrage de la socket
-
-Mon Apr 27 16:44:07 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 16:44:07 2020
- Mise en écoute de la socket
-
-Mon Apr 27 16:44:09 2020
- Connexion from 127.0.0.1:29335
-Mon Apr 27 16:44:28 2020
- Création de la socket
-
-Mon Apr 27 16:44:28 2020
- Paramètrage de la socket
-
-Mon Apr 27 16:44:28 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 16:44:28 2020
- Mise en écoute de la socket
-
-Mon Apr 27 16:44:31 2020
- Connexion from 127.0.0.1:29847
-Mon Apr 27 16:44:45 2020
- Création de la socket
-
-Mon Apr 27 16:44:45 2020
- Paramètrage de la socket
-
-Mon Apr 27 16:44:45 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 16:44:45 2020
- Mise en écoute de la socket
-
-Mon Apr 27 16:44:48 2020
- Connexion from 127.0.0.1:31383
-Mon Apr 27 16:47:31 2020
- Création de la socket
-
-Mon Apr 27 16:47:31 2020
- Paramètrage de la socket
-
-Mon Apr 27 16:47:31 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 16:47:31 2020
- Mise en écoute de la socket
-
-Mon Apr 27 16:47:33 2020
- Connexion from 127.0.0.1:33431
-Mon Apr 27 16:47:36 2020
- Receive from the socket 5 :
+Tue May  5 13:30:31 2020
+ Connexion from 127.0.0.1:29850
+Tue May  5 13:30:33 2020
+ Receive from the socket 6 :
  (null) : kyabe
 
-Mon Apr 27 16:47:39 2020
- Connexion from 127.0.0.1:34455
-Mon Apr 27 16:47:41 2020
+Tue May  5 13:30:36 2020
+ Receive from the socket 6 :
+ kyabe : test
+
+Tue May  5 13:30:39 2020
+ Receive from the socket 6 :
+ kyabe : !create
+
+Tue May  5 13:30:41 2020
+ Receive from the socket 6 :
+ kyabe : breezazza
+
+Tue May  5 13:30:44 2020
+ Receive from the socket 6 :
+ kyabe : !exit
+
+Tue May  5 13:30:44 2020
+ The user : kyabe has left
+
+Tue May  5 13:30:48 2020
+ Receive from the socket 5 :
+ kya : !room 1
+
+Tue May  5 13:30:51 2020
+ Receive from the socket 5 :
+ kya : !exit
+
+Tue May  5 13:30:51 2020
+ The user : kya has left
+
+Tue May  5 13:32:26 2020
+ Création de la socket
+
+Tue May  5 13:32:26 2020
+ Paramètrage de la socket
+
+Tue May  5 13:32:26 2020
+ Attachement de la socket sur le port 1234
+
+Tue May  5 13:32:26 2020
+ Mise en écoute de la socket
+
+Tue May  5 13:32:32 2020
+ Connexion from 127.0.0.1:34458
+Tue May  5 13:32:33 2020
+ Receive from the socket 5 :
+ (null) : vfzqvea
+
+Tue May  5 13:32:35 2020
+ Connexion from 127.0.0.1:34970
+Tue May  5 13:32:36 2020
+ Receive from the socket 6 :
+ (null) : zazdavdszaza
+
+Tue May  5 13:32:40 2020
+ Receive from the socket 6 :
+ zazdavdszaza : !create
+
+Tue May  5 13:32:43 2020
+ Receive from the socket 6 :
+ zazdavdszaza : lol
+
+Tue May  5 13:32:46 2020
+ Receive from the socket 6 :
+ zazdavdszaza : !exit
+
+Tue May  5 13:32:46 2020
+ The user : zazdavdszaza has left
+
+Tue May  5 13:32:51 2020
+ Receive from the socket 5 :
+ vfzqvea : !room 1
+
+Tue May  5 13:33:06 2020
+ Connexion from 127.0.0.1:35994
+Tue May  5 13:33:09 2020
+ Receive from the socket 7 :
+ (null) : rzeraezgfazrga
+
+Tue May  5 13:33:13 2020
+ Receive from the socket 5 :
+ vfzqvea : !exit
+
+Tue May  5 13:33:13 2020
+ The user : vfzqvea has left
+
+Tue May  5 13:33:17 2020
+ Receive from the socket 7 :
+ rzeraezgfazrga : !room 1
+
+Tue May  5 13:33:22 2020
+ Receive from the socket 7 :
+ rzeraezgfazrga : !exot
+
+Tue May  5 13:33:25 2020
+ Receive from the socket 7 :
+ rzeraezgfazrga : !exit
+
+Tue May  5 13:33:25 2020
+ The user : rzeraezgfazrga has left
+
+Tue May  5 14:08:08 2020
+ Création de la socket
+
+Tue May  5 14:08:08 2020
+ Paramètrage de la socket
+
+Tue May  5 14:08:08 2020
+ Attachement de la socket sur le port 1234
+
+Tue May  5 14:08:08 2020
+ Mise en écoute de la socket
+
+Tue May  5 14:08:09 2020
+ Connexion from 86.227.145.205:34000
+Tue May  5 14:08:13 2020
+ Receive from the socket 5 :
+ (null) : ��������
+
+Tue May  5 14:08:16 2020
+ Receive from the socket 5 :
+ �������� : ju
+
+Tue May  5 14:08:17 2020
+ Receive from the socket 5 :
+ �������� : !exit
+
+Tue May  5 14:08:17 2020
+ The user : �������� has left
+
+Tue May  5 14:08:37 2020
+ Connexion from 127.0.0.1:30875
+Tue May  5 14:08:39 2020
  Receive from the socket 6 :
  (null) : kya
 
-Mon Apr 27 16:47:42 2020
+Tue May  5 14:08:42 2020
+ Connexion from 86.227.145.205:34512
+Tue May  5 14:08:43 2020
+ Receive from the socket 5 :
+ (null) : Ju
+
+Tue May  5 14:08:44 2020
+ Receive from the socket 5 :
+ Ju : yo
+
+Tue May  5 14:08:48 2020
+ Connexion from 82.64.7.65:59614
+Tue May  5 14:08:49 2020
+ Receive from the socket 5 :
+ Ju : squalala
+
+Tue May  5 14:08:55 2020
+ Receive from the socket 7 :
+ (null) : MR Forton
+
+Tue May  5 14:09:01 2020
+ Receive from the socket 7 :
+ MR Forton : niceuuuuuuu
+
+Tue May  5 14:09:02 2020
+ Receive from the socket 5 :
+ Ju : !exit
+
+Tue May  5 14:09:02 2020
+ The user : Ju has left
+
+Tue May  5 14:09:07 2020
+ Connexion from 86.227.145.205:35024
+Tue May  5 14:09:09 2020
+ Receive from the socket 8 :
+ (null) : Ju
+
+Tue May  5 14:09:13 2020
+ Receive from the socket 7 :
+ MR Forton : !help
+
+Tue May  5 14:09:14 2020
+ Receive from the socket 6 :
+ kya : !create 
+
+Tue May  5 14:09:14 2020
  Receive from the socket 6 :
  kya : test
 
-Mon Apr 27 16:47:45 2020
+Tue May  5 14:09:17 2020
  Receive from the socket 6 :
- kya : gze fezf dz v ezaf zgfa fazf daze 
+ kya : !room 1
 
-Mon Apr 27 16:47:50 2020
+Tue May  5 14:09:20 2020
+ Receive from the socket 8 :
+ Ju : !room 1
+
+Tue May  5 14:09:22 2020
+ Receive from the socket 7 :
+ MR Forton : !room 1
+
+Tue May  5 14:09:27 2020
+ Receive from the socket 8 :
+ Ju : !room 0
+
+Tue May  5 14:09:27 2020
+ Receive from the socket 7 :
+ MR Forton : blabla
+
+Tue May  5 14:09:30 2020
+ Receive from the socket 8 :
+ Ju : sifhnqef
+
+Tue May  5 14:09:33 2020
+ Receive from the socket 6 :
+ kya : rzgzfez
+
+Tue May  5 14:09:40 2020
+ Receive from the socket 7 :
+ MR Forton : !room 0
+
+Tue May  5 14:09:43 2020
+ Receive from the socket 6 :
+ kya : !users
+
+Tue May  5 14:09:44 2020
+ Receive from the socket 8 :
+ Ju : !users
+
+Tue May  5 14:09:46 2020
+ Receive from the socket 7 :
+ MR Forton : !user
+
+Tue May  5 14:09:48 2020
  Receive from the socket 6 :
  kya : !room
 
-Mon Apr 27 16:47:54 2020
- Receive from the socket 6 :
- kya : 1
-
-Mon Apr 27 16:47:57 2020
- Receive from the socket 6 :
- kya : fjkhv rnazjvhqhjk vbqsfkhjgzbrhkjgaz
-
-Mon Apr 27 16:48:00 2020
- Receive from the socket 6 :
- kya : fdqj gfsqhlkgfsKHFGARZLIUGHZ
-
-Mon Apr 27 16:48:06 2020
- Receive from the socket 5 :
- kyabe : !room
-
-Mon Apr 27 16:48:08 2020
- Receive from the socket 5 :
- kyabe : 1
-
-Mon Apr 27 16:48:10 2020
- Receive from the socket 5 :
- kyabe : bvfnqlj vhqkj:gvqjkbfqkjgvqfe 
-
-Mon Apr 27 16:48:12 2020
- Receive from the socket 5 :
- kyabe : fdqd bbdsb s gtes bgte
-
-Mon Apr 27 16:48:15 2020
- Receive from the socket 6 :
- kya : vfez vfv fd vffv fdvr
-
-Mon Apr 27 16:48:24 2020
- Receive from the socket 6 :
- kya : !exit
-
-Mon Apr 27 16:48:28 2020
- Receive from the socket 5 :
- kyabe : !exit
-
-Mon Apr 27 16:48:37 2020
- The socket has been closed
-Mon Apr 27 16:48:45 2020
- Receive from the socket 6 :
- kya : $
-
-Mon Apr 27 16:49:36 2020
- Création de la socket
-
-Mon Apr 27 16:49:36 2020
- Paramètrage de la socket
-
-Mon Apr 27 16:49:36 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 16:49:36 2020
- Mise en écoute de la socket
-
-Mon Apr 27 16:49:39 2020
- Connexion from 127.0.0.1:37527
-Mon Apr 27 16:49:42 2020
- Receive from the socket 5 :
- (null) : kya
-
-Mon Apr 27 16:49:45 2020
- Connexion from 127.0.0.1:38039
-Mon Apr 27 16:49:47 2020
- Receive from the socket 6 :
- (null) : kyabe
-
-Mon Apr 27 16:49:49 2020
- Receive from the socket 6 :
- kyabe : vvrzqfez gfez
-
-Mon Apr 27 16:49:50 2020
- Receive from the socket 6 :
- kyabe : fe fezf arez
-
-Mon Apr 27 16:49:54 2020
- Receive from the socket 6 :
- kyabe : !nick
-
-Mon Apr 27 16:49:56 2020
- Receive from the socket 6 :
- kyabe : Michel
-
-Mon Apr 27 16:49:58 2020
- Receive from the socket 6 :
- Michel : rzvzfezrgezr
-
-Mon Apr 27 16:49:59 2020
- Receive from the socket 6 :
- Michel : agregrevgreagf
-
-Mon Apr 27 16:50:00 2020
- Receive from the socket 6 :
- Michel : feaevezgreagrfefrq
-
-Mon Apr 27 16:50:05 2020
- Receive from the socket 6 :
- Michel : !exit
-
-Mon Apr 27 16:50:05 2020
- The user : Michel has left
-
-Mon Apr 27 16:50:05 2020
- Message freed
-Mon Apr 27 16:50:09 2020
- Receive from the socket 5 :
- kya : !exit
-
-Mon Apr 27 16:50:09 2020
- The user : kya has left
-
-Mon Apr 27 16:50:09 2020
- Message freed
-Mon Apr 27 17:39:52 2020
- Création de la socket
-
-Mon Apr 27 17:39:52 2020
- Paramètrage de la socket
-
-Mon Apr 27 17:39:52 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 17:39:52 2020
- Mise en écoute de la socket
-
-Mon Apr 27 17:39:57 2020
- Connexion from 127.0.0.1:31384
-Mon Apr 27 17:39:58 2020
- Receive from the socket 5 :
- (null) : kya
-
-Mon Apr 27 17:40:00 2020
- Connexion from 127.0.0.1:31896
-Mon Apr 27 17:40:02 2020
- Receive from the socket 6 :
- (null) : kyabe
-
-Mon Apr 27 17:40:04 2020
- Receive from the socket 6 :
- kyabe : salut
-
-Mon Apr 27 17:41:14 2020
- Création de la socket
-
-Mon Apr 27 17:41:14 2020
- Paramètrage de la socket
-
-Mon Apr 27 17:41:14 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 17:41:14 2020
- Mise en écoute de la socket
-
-Mon Apr 27 17:41:17 2020
- Connexion from 127.0.0.1:32920
-Mon Apr 27 17:41:20 2020
- Receive from the socket 5 :
- (null) : kya
-
-Mon Apr 27 17:41:22 2020
- Receive from the socket 5 :
- kya : test
-
-Mon Apr 27 17:42:29 2020
- Création de la socket
-
-Mon Apr 27 17:42:29 2020
- Paramètrage de la socket
-
-Mon Apr 27 17:42:29 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 17:42:29 2020
- Mise en écoute de la socket
-
-Mon Apr 27 17:42:33 2020
- Connexion from 127.0.0.1:34456
-Mon Apr 27 17:42:35 2020
- Receive from the socket 5 :
- (null) : kya
-
-Mon Apr 27 17:42:36 2020
- Receive from the socket 5 :
- kya : test
-
-Mon Apr 27 17:42:43 2020
- Connexion from 127.0.0.1:34968
-Mon Apr 27 17:42:46 2020
- Receive from the socket 6 :
- (null) : kyabe
-
-Mon Apr 27 17:42:49 2020
- Receive from the socket 6 :
- kyabe : test
-
-Mon Apr 27 17:42:52 2020
- Receive from the socket 6 :
- kyabe : zgfz fezfzegraez ggeqg ea
-
-Mon Apr 27 17:42:58 2020
- Receive from the socket 6 :
- kyabe : va razfraz fazf afraz fezf ezf afzfeaz
-
-Mon Apr 27 17:43:24 2020
- Receive from the socket 5 :
- kya : !exit
-
-Mon Apr 27 17:43:24 2020
- The user : kya has left
-
-Mon Apr 27 17:43:24 2020
- Message freed
-Mon Apr 27 17:43:48 2020
- Connexion from 82.64.7.65:59876
-Mon Apr 27 17:43:48 2020
- Connexion from 81.14.15.156:43215
-Mon Apr 27 17:43:51 2020
+Tue May  5 14:09:50 2020
  Receive from the socket 7 :
- (null) : Jcf
+ MR Forton : !users
 
-Mon Apr 27 17:43:53 2020
- Receive from the socket 7 :
- Jcf : coucou
-
-Mon Apr 27 17:43:57 2020
+Tue May  5 14:09:53 2020
  Receive from the socket 6 :
- kyabe : test
+ kya : !users
 
-Mon Apr 27 17:44:05 2020
- Receive from the socket 6 :
- kyabe : !exit
-
-Mon Apr 27 17:44:05 2020
- The user : kyabe has left
-
-Mon Apr 27 17:44:05 2020
- Message freed
-Mon Apr 27 17:44:11 2020
- Receive from the socket 5 :
- (null) : mathmathis
-
-Mon Apr 27 17:44:15 2020
- Receive from the socket 5 :
- mathmathis : hello
-
-Mon Apr 27 17:44:22 2020
- The socket has been closed
-Mon Apr 27 17:45:41 2020
- Connexion from 81.14.15.156:47055
-Mon Apr 27 17:45:47 2020
+Tue May  5 14:10:02 2020
  Receive from the socket 8 :
- (null) : mathis
+ Ju : !exit
 
-Mon Apr 27 17:45:51 2020
- Receive from the socket 8 :
- mathis : hello
+Tue May  5 14:10:02 2020
+ The user : Ju has left
 
-Mon Apr 27 17:46:05 2020
+Tue May  5 14:10:03 2020
  Receive from the socket 7 :
- Jcf : 
+ MR Forton : [3~!exit
 
-Mon Apr 27 17:46:07 2020
- Receive from the socket 7 :
- Jcf : ����
-
-Mon Apr 27 17:46:10 2020
- The socket has been closed
-Mon Apr 27 17:46:28 2020
- The socket has been closed
-Mon Apr 27 18:31:55 2020
- Création de la socket
-
-Mon Apr 27 18:31:55 2020
- Paramètrage de la socket
-
-Mon Apr 27 18:31:55 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 18:31:55 2020
- Mise en écoute de la socket
-
-Mon Apr 27 18:31:57 2020
- Connexion from 127.0.0.1:59545
-Mon Apr 27 18:32:00 2020
- Receive from the socket 5 :
- (null) : kyabe
-
-Mon Apr 27 18:32:06 2020
- Connexion from 127.0.0.1:60057
-Mon Apr 27 18:32:08 2020
+Tue May  5 14:10:04 2020
  Receive from the socket 6 :
- (null) : kya
-
-Mon Apr 27 18:32:10 2020
- Receive from the socket 6 :
- (null) : test
-
-Mon Apr 27 18:32:12 2020
- Receive from the socket 6 :
- (null) : ceafezfz
-
-Mon Apr 27 18:32:14 2020
- Receive from the socket 6 :
- (null) : vzgezr j rzajlgfrf aehg
-
-Mon Apr 27 18:32:19 2020
- Receive from the socket 6 :
- (null) : !nick
-
-Mon Apr 27 18:32:23 2020
- Receive from the socket 6 :
- !nick
- : kya
-
-Mon Apr 27 18:32:24 2020
- Receive from the socket 6 :
- !nick
- : vdzvza
-
-Mon Apr 27 18:32:26 2020
- Receive from the socket 6 :
- !nick
- : vreafraefarz
-
-Mon Apr 27 18:32:30 2020
- Receive from the socket 6 :
- !nick
- : !nick kya
-
-Mon Apr 27 18:32:31 2020
- Receive from the socket 6 :
- !nick : vzafrza
-
-Mon Apr 27 18:32:32 2020
- Receive from the socket 6 :
- !nick : dzafezaf
-
-Mon Apr 27 18:32:33 2020
- Receive from the socket 6 :
- !nick : fzaefeazfezafezaf
-
-Mon Apr 27 18:32:34 2020
- Receive from the socket 6 :
- !nick : fezdfezafeazfea
-
-Mon Apr 27 18:32:37 2020
- Receive from the socket 6 :
- !nick : !exit
-
-Mon Apr 27 18:32:37 2020
- The user : !nick has left
-
-Mon Apr 27 18:32:37 2020
- Message freed
-Mon Apr 27 18:32:42 2020
- Receive from the socket 5 :
- (null) : 
-
-Mon Apr 27 18:32:43 2020
- Receive from the socket 5 :
- (null) : !exit
-
-Mon Apr 27 18:32:43 2020
- The user : (null) has left
-
-Mon Apr 27 18:32:43 2020
- Message freed
-Mon Apr 27 18:34:41 2020
- Création de la socket
-
-Mon Apr 27 18:34:41 2020
- Paramètrage de la socket
-
-Mon Apr 27 18:34:41 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 18:34:41 2020
- Mise en écoute de la socket
-
-Mon Apr 27 18:34:43 2020
- Connexion from 127.0.0.1:63129
-Mon Apr 27 18:34:47 2020
- Receive from the socket 5 :
- (null) : kya
-
-Mon Apr 27 18:34:50 2020
- Receive from the socket 5 :
- kya : test
-
-Mon Apr 27 18:34:54 2020
- Connexion from 127.0.0.1:63641
-Mon Apr 27 18:35:00 2020
- Receive from the socket 6 :
- (null) : geazgfz
-
-Mon Apr 27 18:35:01 2020
- Receive from the socket 6 :
- geazgfz : gezrfaefe
-
-Mon Apr 27 18:35:03 2020
- Receive from the socket 6 :
- geazgfz : !exit
-
-Mon Apr 27 18:35:03 2020
- The user : geazgfz has left
-
-Mon Apr 27 18:35:03 2020
- Message freed
-Mon Apr 27 18:35:06 2020
- Receive from the socket 5 :
  kya : !exit
 
-Mon Apr 27 18:35:06 2020
+Tue May  5 14:10:04 2020
  The user : kya has left
 
-Mon Apr 27 18:35:06 2020
- Message freed
-Mon Apr 27 18:37:46 2020
- Création de la socket
-
-Mon Apr 27 18:37:46 2020
- Paramètrage de la socket
-
-Mon Apr 27 18:37:46 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 18:37:46 2020
- Mise en écoute de la socket
-
-Mon Apr 27 18:38:20 2020
- Création de la socket
-
-Mon Apr 27 18:38:20 2020
- Paramètrage de la socket
-
-Mon Apr 27 18:38:20 2020
- Attachement de la socket sur le port 1234
-
-Mon Apr 27 18:38:20 2020
- Mise en écoute de la socket
-
-Mon Apr 27 18:38:21 2020
- Connexion from 127.0.0.1:2202
-Mon Apr 27 18:38:23 2020
- Receive from the socket 5 :
- (null) : kya
-
-Mon Apr 27 18:38:27 2020
- Connexion from 127.0.0.1:2714
-Mon Apr 27 18:38:29 2020
- Receive from the socket 6 :
- (null) : kyabe
-
-Mon Apr 27 18:38:31 2020
- Receive from the socket 6 :
- kyabe : test
-
-Mon Apr 27 18:38:35 2020
- Receive from the socket 6 :
- kyabe : it's work
-
-Mon Apr 27 18:38:42 2020
- Receive from the socket 6 :
- kyabe : !nick
-
-Mon Apr 27 18:38:44 2020
- Receive from the socket 6 :
- kyabe : connardman
-
-Mon Apr 27 18:38:47 2020
- Receive from the socket 6 :
- connardman : salut
-
-Mon Apr 27 18:38:49 2020
- Receive from the socket 6 :
- connardman : bite
-
-Mon Apr 27 18:38:51 2020
- Receive from the socket 6 :
- connardman : !exit
-
-Mon Apr 27 18:38:51 2020
- The user : connardman has left
-
-Mon Apr 27 18:38:51 2020
- Message freed
-Mon Apr 27 18:38:53 2020
- Receive from the socket 5 :
- kya : 
-
-Mon Apr 27 18:38:55 2020
- Receive from the socket 5 :
- kya : !exit
-
-Mon Apr 27 18:38:55 2020
- The user : kya has left
-
-Mon Apr 27 18:38:55 2020
- Message freed
-Mon Apr 27 18:39:34 2020
- Connexion from 127.0.0.1:3738
-Mon Apr 27 18:39:36 2020
- Receive from the socket 7 :
- (null) : kya
-
-Mon Apr 27 18:39:43 2020
- Connexion from 127.0.0.1:4250
-Mon Apr 27 18:39:46 2020
- Receive from the socket 5 :
- (null) : connard
-
-Mon Apr 27 18:39:49 2020
- Receive from the socket 5 :
- connard : !room
-
-Mon Apr 27 18:39:56 2020
- Receive from the socket 5 :
- connard : !room 3
-
-Mon Apr 27 18:39:58 2020
- Receive from the socket 7 :
- kya : 
-
-Mon Apr 27 18:40:01 2020
- Receive from the socket 7 :
- kya : !room 3
-
-Mon Apr 27 18:40:04 2020
- Receive from the socket 7 :
- kya : bite
-
-Mon Apr 27 18:40:08 2020
- Receive from the socket 7 :
- kya : !exit
-
-Mon Apr 27 18:40:08 2020
- The user : kya has left
-
-Mon Apr 27 18:40:08 2020
- Message freed
-Mon Apr 27 18:40:11 2020
- Receive from the socket 5 :
- connard : !exit*
-
-Mon Apr 27 18:40:11 2020
- The user : connard has left
-
-Mon Apr 27 18:40:11 2020
- Message freed

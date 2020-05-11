@@ -47,16 +47,18 @@ void *manage_client(void *arg) { //We put the file descriptor of the client and 
     client *ptr_client = (client *) arg; //cast = force the compiler to take a client*
     int fd_client = ptr_client->socket;
     //sends to the socket of the client the message and doesn't wait for the confirmation of reception
-    send(fd_client, "Welcome in C-HAT\nYour next message will be your pseudo\n",
-         sizeof("Welcome in C-HAT\nYour next message will be your pseudo\n"), MSG_DONTWAIT);
+    send(fd_client, "Welcome in C-HAT - If you need help use !help\nYour next message will be your pseudo\n",
+         sizeof("Welcome in C-HAT - If you need help use !help\nYour next message will be your pseudo\n"),
+         MSG_DONTWAIT);
+
     //we define the length of the buffer and add +1 for \0  //"*" allows to not give a size in opposite of []
-    char buffer[BUFFER_LEN + 1];
+
     char *msg = NULL; //clearing the value of msg to have it empty and not giving a length
-    int msgLen = 0, pMsgLen;
-    int changeName = 0, changeRoom = 1;
+    char buffer[BUFFER_LEN + 1];
+    int msgLen = 0;
+    int changeName = 2, changeRoom = 1;
 
     while (1) {
-        //gives the length of the msg received from a socket //if the msg is too long to hold in the buffer the missing part will be deleted
         int len = recv(fd_client, &buffer, BUFFER_LEN, 0);
         buffer[len] = '\0'; //we add at the end of the buffer a '\0' to signal the end the message
 
@@ -85,66 +87,97 @@ void *manage_client(void *arg) { //We put the file descriptor of the client and 
         msg[msgLen - 1] = '\0'; //We signal that this is the end of the message
         log_msg("Receive from the socket %i :\n %s : %s", fd_client, ptr_client->pseudo, msg);
 
-        if (changeName == 0) {
+        if (changeName == 0 || changeName == 2) {
             msg[msgLen - 2] = '\0';
             set_pseudo(ptr_client, msg);
+            if (changeName == 2) {
+                send_msg(ptr_client, "%s is connected\n", ptr_client->pseudo);
+            }
             changeName = 1;
 
+        } else if (changeRoom == 0) {
+            for (int i = 0; i < ROOM_MAX; i++) {
+                if (rooms[i].name == NULL) {
+                    msg[msgLen - 2] = '\0'; //We put the \0 earlier because we don't want the auto \n
+                    room_initiate_room(&rooms[i], msg, ptr_client, i);
+                    send(fd_client, "Room successfully created\n",
+                         sizeof("Room successfully created\n"), MSG_DONTWAIT);
+                    changeRoom = 1;
+                    break;
+                }
+            }
+        } else if (strncmp(msg, "!help", strlen("!help")) == 0) {
+            display_commands(ptr_client);
+
         } else if (strncmp(msg, "!nick", strlen("!nick")) == 0) {
-            send(ptr_client->socket, "Your next message will be your pseudo\n",
-                 sizeof("Your next message will be your pseudo\n"), MSG_DONTWAIT);
+            send(fd_client, "Your next message will be your nickname\n",
+                 sizeof("Your next message will be your nickname\n"), MSG_DONTWAIT);
             changeName = 0;
+
+        } else if (strncmp(msg, "!users", strlen("!users")) == 0) {
+            for (int i = 0; i < CLIENTS_SIZE; i++) {
+                if (clients[i].socket != ptr_client->socket && clients[i].roomNumber == ptr_client->roomNumber &&
+                    is_free(&clients[i]) == EXIT_FAILURE) {
+                    send_self_msg(ptr_client, "[%s]\n", clients[i].pseudo);
+                }
+            }
 
         } else if (strncmp(msg, "!room", strlen("!room")) == 0) {
             int a = strtol(msg + 6, NULL, 10);
             if (a < 0 || a > ROOM_MAX) {
-                send(ptr_client->socket, "You didn't enter a good room number\n",
-                     sizeof("You didn't enter a good room number\n"), MSG_DONTWAIT);
+                send(fd_client, "You didn't enter a good Room number\n",
+                     sizeof("You didn't enter a good Room number\n"), MSG_DONTWAIT);
             } else {
                 ptr_client->roomNumber = a;
-                send_msg(ptr_client, "%s joined the room\n", ptr_client->pseudo);
+                send_msg(ptr_client, "%s has joined the Room\n", ptr_client->pseudo);
+                display_room_name(ptr_client);
+                display_Room_Message(ptr_client);
             }
+            //TODO vérifier erreur si on rentre rien
             //compare that the msgs equals "!exit" and the compares from [0] to the length of "!exit"
+        } else if (strncmp(msg, "!create", strlen("!create")) == 0) {
+            for (int i = 0; i < ROOM_MAX; i++) {
+                if (rooms[i].name != NULL) {
+                    continue;
+                } else {
+                    send(fd_client, "Your next message will define the room name\n",
+                         sizeof("Your next message will define the room name\n"), MSG_DONTWAIT);
+                    changeRoom = 0;
+                    break;
+                }
+                send(fd_client, "All the rooms are already taken\n", sizeof("All the rooms are already taken\n"),
+                     MSG_DONTWAIT);
+                //TODO afficher le msg si aucune room est dispo
+            }
         } else if (strncmp(msg, "!exit", strlen("!exit")) == 0) {
             log_msg("The user : %s has left\n", ptr_client->pseudo);
-            for (int i = 0; i < CLIENTS_SIZE; ++i) {
-                if (clients[i].socket != fd_client && is_free(&clients[i]) == EXIT_FAILURE) {
-                    send_msg(ptr_client, "The user %s has left\n", ptr_client->pseudo);
-                }
-            }
+            send_msg(ptr_client, "%s has left\n", ptr_client->pseudo);
+
             free(msg);
             msg = NULL;
             msgLen = 0;
-            log_msg("Message freed");
             break;
             //else we send the message somewhere else
         } else {
-            send_msg(ptr_client, "%s : %s\n", ptr_client->pseudo, msg);
+            send_msg(ptr_client, "%s : %s", ptr_client->pseudo, msg);
         }
         //We reset our parameters
         free(msg);
         msg = NULL;
         msgLen = 0;
     }
+    int roomToDestroy = ptr_client->roomNumber;
     client_destroy(ptr_client);
-    close(fd_client); //we close the socket of the form data of the client
-    pthread_exit(EXIT_SUCCESS);
-}
-
-void send_msg(client *ptr_client, char *format, ...) {
-    va_list params;
-    va_start(params, format);
-    int len = vsnprintf(0, 0, format, params);
-    char tmp[len + 1];
-    va_start(params, format);
-    vsprintf(tmp, format, params);
-    va_end(params);
-    for (int i = 0; i < CLIENTS_SIZE; ++i) {
-        if (clients[i].socket != ptr_client->socket && is_free(&clients[i]) == EXIT_FAILURE &&
-            ptr_client->roomNumber == clients[i].roomNumber) {
-            send(clients[i].socket, tmp, len, MSG_DONTWAIT);
+    close(fd_client);
+    for (int i = 1; i < CLIENTS_SIZE; i++) { // 1 because we want to keep the room 0 always available
+        if (clients[i].roomNumber == roomToDestroy) {
+            break;
+        } else {
+            room_destroy(&rooms[i]);
         }
     }
+    //we close the socket of the form data of the client
+    pthread_exit(EXIT_SUCCESS);
 }
 
 void start_socket() {

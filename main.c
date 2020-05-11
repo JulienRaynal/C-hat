@@ -5,6 +5,9 @@
 #include "socket/Socket.h"
 #include "log/Logger.h"
 
+//TODO enlever les values grisé inutiles pour clean de .c et .h
+//TODO vérifier que ça marche bien à 2
+
 void signal_handler(int sig);
 
 void daemonize();
@@ -23,16 +26,13 @@ int main(void) {
     for(int i=0; i<ROOM_MAX;i++){
         room_init(&rooms[i]);
     }
-    room_set_name(&rooms[0], "Home");
+    rooms[0].name= "Home";
     while (end == 0) {
         accept_client();
     }
-
     for (int j = 0; j < ROOM_MAX ; ++j) {
         room_destroy(&rooms[j]);
     }
-
-
     return EXIT_SUCCESS;
 }
 

@@ -43,10 +43,10 @@ RM = /home/kya/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kya/CLionProjects/C-HAT
+CMAKE_SOURCE_DIR = "/home/kya/CLionProjects/C-HAT julien"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kya/CLionProjects/C-HAT/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/kya/CLionProjects/C-HAT julien/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/C_HAT.dir/depend.make
@@ -59,68 +59,81 @@ include CMakeFiles/C_HAT.dir/flags.make
 
 CMakeFiles/C_HAT.dir/main.c.o: CMakeFiles/C_HAT.dir/flags.make
 CMakeFiles/C_HAT.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kya/CLionProjects/C-HAT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_HAT.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_HAT.dir/main.c.o   -c /home/kya/CLionProjects/C-HAT/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_HAT.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_HAT.dir/main.c.o   -c "/home/kya/CLionProjects/C-HAT julien/main.c"
 
 CMakeFiles/C_HAT.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_HAT.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kya/CLionProjects/C-HAT/main.c > CMakeFiles/C_HAT.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kya/CLionProjects/C-HAT julien/main.c" > CMakeFiles/C_HAT.dir/main.c.i
 
 CMakeFiles/C_HAT.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_HAT.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kya/CLionProjects/C-HAT/main.c -o CMakeFiles/C_HAT.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kya/CLionProjects/C-HAT julien/main.c" -o CMakeFiles/C_HAT.dir/main.c.s
 
 CMakeFiles/C_HAT.dir/log/Logger.c.o: CMakeFiles/C_HAT.dir/flags.make
 CMakeFiles/C_HAT.dir/log/Logger.c.o: ../log/Logger.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kya/CLionProjects/C-HAT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/C_HAT.dir/log/Logger.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_HAT.dir/log/Logger.c.o   -c /home/kya/CLionProjects/C-HAT/log/Logger.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/C_HAT.dir/log/Logger.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_HAT.dir/log/Logger.c.o   -c "/home/kya/CLionProjects/C-HAT julien/log/Logger.c"
 
 CMakeFiles/C_HAT.dir/log/Logger.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_HAT.dir/log/Logger.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kya/CLionProjects/C-HAT/log/Logger.c > CMakeFiles/C_HAT.dir/log/Logger.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kya/CLionProjects/C-HAT julien/log/Logger.c" > CMakeFiles/C_HAT.dir/log/Logger.c.i
 
 CMakeFiles/C_HAT.dir/log/Logger.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_HAT.dir/log/Logger.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kya/CLionProjects/C-HAT/log/Logger.c -o CMakeFiles/C_HAT.dir/log/Logger.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kya/CLionProjects/C-HAT julien/log/Logger.c" -o CMakeFiles/C_HAT.dir/log/Logger.c.s
 
 CMakeFiles/C_HAT.dir/socket/Socket.c.o: CMakeFiles/C_HAT.dir/flags.make
 CMakeFiles/C_HAT.dir/socket/Socket.c.o: ../socket/Socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kya/CLionProjects/C-HAT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C_HAT.dir/socket/Socket.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_HAT.dir/socket/Socket.c.o   -c /home/kya/CLionProjects/C-HAT/socket/Socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C_HAT.dir/socket/Socket.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_HAT.dir/socket/Socket.c.o   -c "/home/kya/CLionProjects/C-HAT julien/socket/Socket.c"
 
 CMakeFiles/C_HAT.dir/socket/Socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_HAT.dir/socket/Socket.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kya/CLionProjects/C-HAT/socket/Socket.c > CMakeFiles/C_HAT.dir/socket/Socket.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kya/CLionProjects/C-HAT julien/socket/Socket.c" > CMakeFiles/C_HAT.dir/socket/Socket.c.i
 
 CMakeFiles/C_HAT.dir/socket/Socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_HAT.dir/socket/Socket.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kya/CLionProjects/C-HAT/socket/Socket.c -o CMakeFiles/C_HAT.dir/socket/Socket.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kya/CLionProjects/C-HAT julien/socket/Socket.c" -o CMakeFiles/C_HAT.dir/socket/Socket.c.s
 
 CMakeFiles/C_HAT.dir/client/Client.c.o: CMakeFiles/C_HAT.dir/flags.make
 CMakeFiles/C_HAT.dir/client/Client.c.o: ../client/Client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kya/CLionProjects/C-HAT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/C_HAT.dir/client/Client.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_HAT.dir/client/Client.c.o   -c /home/kya/CLionProjects/C-HAT/client/Client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/C_HAT.dir/client/Client.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_HAT.dir/client/Client.c.o   -c "/home/kya/CLionProjects/C-HAT julien/client/Client.c"
 
 CMakeFiles/C_HAT.dir/client/Client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_HAT.dir/client/Client.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kya/CLionProjects/C-HAT/client/Client.c > CMakeFiles/C_HAT.dir/client/Client.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kya/CLionProjects/C-HAT julien/client/Client.c" > CMakeFiles/C_HAT.dir/client/Client.c.i
 
 CMakeFiles/C_HAT.dir/client/Client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_HAT.dir/client/Client.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kya/CLionProjects/C-HAT/client/Client.c -o CMakeFiles/C_HAT.dir/client/Client.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kya/CLionProjects/C-HAT julien/client/Client.c" -o CMakeFiles/C_HAT.dir/client/Client.c.s
 
-CMakeFiles/C_HAT.dir/salon/Salon.c.o: CMakeFiles/C_HAT.dir/flags.make
-CMakeFiles/C_HAT.dir/salon/Salon.c.o: ../salon/Salon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kya/CLionProjects/C-HAT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/C_HAT.dir/salon/Salon.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_HAT.dir/salon/Salon.c.o   -c /home/kya/CLionProjects/C-HAT/salon/Salon.c
+CMakeFiles/C_HAT.dir/room/Room.c.o: CMakeFiles/C_HAT.dir/flags.make
+CMakeFiles/C_HAT.dir/room/Room.c.o: ../room/Room.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/C_HAT.dir/room/Room.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_HAT.dir/room/Room.c.o   -c "/home/kya/CLionProjects/C-HAT julien/room/Room.c"
 
-CMakeFiles/C_HAT.dir/salon/Salon.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_HAT.dir/salon/Salon.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kya/CLionProjects/C-HAT/salon/Salon.c > CMakeFiles/C_HAT.dir/salon/Salon.c.i
+CMakeFiles/C_HAT.dir/room/Room.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_HAT.dir/room/Room.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kya/CLionProjects/C-HAT julien/room/Room.c" > CMakeFiles/C_HAT.dir/room/Room.c.i
 
-CMakeFiles/C_HAT.dir/salon/Salon.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_HAT.dir/salon/Salon.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kya/CLionProjects/C-HAT/salon/Salon.c -o CMakeFiles/C_HAT.dir/salon/Salon.c.s
+CMakeFiles/C_HAT.dir/room/Room.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_HAT.dir/room/Room.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kya/CLionProjects/C-HAT julien/room/Room.c" -o CMakeFiles/C_HAT.dir/room/Room.c.s
+
+CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o: CMakeFiles/C_HAT.dir/flags.make
+CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o: ../message\ manager/Message\ Manager.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o   -c "/home/kya/CLionProjects/C-HAT julien/message manager/Message Manager.c"
+
+CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kya/CLionProjects/C-HAT julien/message manager/Message Manager.c" > CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.i
+
+CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kya/CLionProjects/C-HAT julien/message manager/Message Manager.c" -o CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.s
 
 # Object files for target C_HAT
 C_HAT_OBJECTS = \
@@ -128,7 +141,8 @@ C_HAT_OBJECTS = \
 "CMakeFiles/C_HAT.dir/log/Logger.c.o" \
 "CMakeFiles/C_HAT.dir/socket/Socket.c.o" \
 "CMakeFiles/C_HAT.dir/client/Client.c.o" \
-"CMakeFiles/C_HAT.dir/salon/Salon.c.o"
+"CMakeFiles/C_HAT.dir/room/Room.c.o" \
+"CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o"
 
 # External object files for target C_HAT
 C_HAT_EXTERNAL_OBJECTS =
@@ -137,10 +151,11 @@ C_HAT: CMakeFiles/C_HAT.dir/main.c.o
 C_HAT: CMakeFiles/C_HAT.dir/log/Logger.c.o
 C_HAT: CMakeFiles/C_HAT.dir/socket/Socket.c.o
 C_HAT: CMakeFiles/C_HAT.dir/client/Client.c.o
-C_HAT: CMakeFiles/C_HAT.dir/salon/Salon.c.o
+C_HAT: CMakeFiles/C_HAT.dir/room/Room.c.o
+C_HAT: CMakeFiles/C_HAT.dir/message_manager/Message_Manager.c.o
 C_HAT: CMakeFiles/C_HAT.dir/build.make
 C_HAT: CMakeFiles/C_HAT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kya/CLionProjects/C-HAT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable C_HAT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable C_HAT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C_HAT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +168,6 @@ CMakeFiles/C_HAT.dir/clean:
 .PHONY : CMakeFiles/C_HAT.dir/clean
 
 CMakeFiles/C_HAT.dir/depend:
-	cd /home/kya/CLionProjects/C-HAT/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kya/CLionProjects/C-HAT /home/kya/CLionProjects/C-HAT /home/kya/CLionProjects/C-HAT/cmake-build-debug /home/kya/CLionProjects/C-HAT/cmake-build-debug /home/kya/CLionProjects/C-HAT/cmake-build-debug/CMakeFiles/C_HAT.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/kya/CLionProjects/C-HAT julien/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/kya/CLionProjects/C-HAT julien" "/home/kya/CLionProjects/C-HAT julien" "/home/kya/CLionProjects/C-HAT julien/cmake-build-debug" "/home/kya/CLionProjects/C-HAT julien/cmake-build-debug" "/home/kya/CLionProjects/C-HAT julien/cmake-build-debug/CMakeFiles/C_HAT.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/C_HAT.dir/depend
 

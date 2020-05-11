@@ -19,6 +19,7 @@ void close_log_file(){
 }
 
 void log_msg(const char * format, ...){ //contains multiple variables and the number is unknown
+
     time (&rawtime);
     timeinfo = localtime (&rawtime);
     fprintf(pLogFile,"%s ", asctime(timeinfo));
